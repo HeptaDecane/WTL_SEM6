@@ -1,3 +1,6 @@
 # PhpStorm
 .idea/
 */.idea/
+
+# Schell Scripts
+load.sh
