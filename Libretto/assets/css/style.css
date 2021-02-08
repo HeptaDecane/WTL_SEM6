@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela", sans-serif;
+    color: #111111;
+    line-height: 1.6;
+    font-size: 1.4em;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px 2px #aaa;
+    padding: 0.7em 15%;
+    border-bottom: 1px solid #000000;
+}
+
+nav a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+nav button {
+    padding: 4px 10px;
+    background: transparent;
+    border: 1px solid #7278bf;
+    color: #7278bf;
+    font-size: 1em;
+    border-radius: 16px;
+    outline: none;
+}
+nav button:hover {
+    background-color: #7278bf;
+    color: #ffffff;
+}
+
+
+.nav-brand{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+.nav-right {
+    padding: 2px;
+    float: right;
+}
+
+.nav-right a {
+    font-size: 0.8em;
+}
+.nav-right a:hover {
+    color: #116dff;
+}
+
+
+.header {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center;
+}
+
+
+.lora {
+    font-family: "Lora", sans-serif;
+    line-height: 1;
+}
+.charm {
+    font-family: "Charm", sans-serif;
+}
+
+.xx-l {
+    font-size: 1.7em;
+}
+.x-l {
+    font-size: 1.6em;
+}
+.l {
+    font-size: 1.5em;
+}
+.md {
+    font-size: 1.4em;
+}
+.sm {
+    font-size: 0.9em;
+}
+.x-sm {
+    font-size: 0.8em;
+}
+.xx-sm {
+    font-size: 0.7em;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.banner_title {
+    height: 4em;
+}
+
+
+.btn-primary {
+    padding: 8px 16px;
+    background: #7278bf;
+    border: 1px solid #7278bf;
+    color: #ffffff;
+    border-radius: 4px;
+    outline: none;
+}
+.btn-primary:hover {
+    background-color: #7d82c4;
+}
+
+
+.caption {
+    padding: 0.8em;
+    margin: 0;
+    color: gray;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.caption a {
+    text-decoration: none;
+    color: #7278bf;
+}
+.caption a:hover{
+    text-decoration: underline;
+}
+
+
+.container {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+.anchor-primary {
+    text-decoration: none;
+}
+.anchor-primary:hover {
+    text-decoration: underline;
+}
+
+
+.anchor-secondary {
+    color: gray;
+    text-decoration: none;
+}
+.anchor-secondary:hover {
+    color: #444;
+}
+
+
+.anchor-none {
+    color: #111111;
+    text-decoration: none;
+}
+
+
+.footer-table{
+    width: 100%;
+}
+.footer-table tr {
+    vertical-align: top;
+}
+.footer-table th{
+    text-align: left;
+    padding: 8px;
+}
+.footer-table td{
+    text-align: left;
+    padding: 8px;
+}
