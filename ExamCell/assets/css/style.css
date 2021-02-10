@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Varela", sans-serif;
-    color: #111111;
+    color: #20303c;
     line-height: 1.6;
     font-size: 1.4em;
 }
@@ -37,6 +37,17 @@ nav button:hover {
 }
 
 
+input{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
 .nav-brand{
     font-size: 1.3em;
     font-weight: bold;
@@ -57,8 +68,8 @@ nav button:hover {
 
 
 .header {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
 }
 
@@ -97,6 +108,10 @@ nav button:hover {
     text-align: justify;
 }
 
+.center {
+    text-align: center;
+}
+
 .banner_title {
     height: 4em;
 }
@@ -109,11 +124,25 @@ nav button:hover {
     color: #ffffff;
     border-radius: 4px;
     outline: none;
+    cursor: pointer;
+
 }
 .btn-primary:hover {
     background-color: #7d82c4;
 }
 
+.btn-primary-inv {
+    padding: 8px 16px;
+    background: #ffffff;
+    border: 1px solid #7278bf;
+    color: #7278bf;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.btn-primary-inv:hover {
+    background-color: #ffffff;
+}
 
 .caption {
     padding: 0.8em;
@@ -140,6 +169,7 @@ nav button:hover {
 
 .anchor-primary {
     text-decoration: none;
+    color: #116dff;
 }
 .anchor-primary:hover {
     text-decoration: underline;
