@@ -28,17 +28,17 @@ nav button {
     border: 1px solid #7278bf;
     color: #7278bf;
     font-size: 1em;
-    border-radius: 16px;
+    border-radius: 12px;
     outline: none;
 }
 nav button:hover {
-    background-color: #7278bf;
+    background-color: #7d82c4;
     color: #ffffff;
 }
 
 
 input{
-    width: 75%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -142,6 +142,7 @@ input{
 }
 .btn-primary-inv:hover {
     background-color: #ffffff;
+    color: #7d82c4;
 }
 
 .caption {
@@ -204,4 +205,68 @@ input{
 .footer-table td{
     text-align: left;
     padding: 8px;
+}
+
+
+.spreadsheet{
+    border-collapse: collapse;
+    width: 75%;
+    text-align: left;
+}
+.spreadsheet td{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1%;
+    text-align: left;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.spreadsheet td:hover{
+    background-color: #f1f1f1;
+}
+.spreadsheet a{
+    display:block;
+    color: #20303c;
+    text-decoration: none;
+    width:100%;
+}
+.spreadsheet a:hover{
+    color: #116dff;
+}
+
+
+.marksheet{
+    border-collapse: collapse;
+    width: 75%;
+    text-align: left;
+}
+.marksheet td{
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+    border: 1px solid black;
+}
+.marksheet th {
+    font-weight: normal;
+}
+.marksheet input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+    text-align: center;
+    height: 1.8em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.marksheet input:focus {
+    border-color: blue;
+}
+
+
+.interactive {
+
+}
+.interactive:hover{
+    transform: scale(1.2);
 }
