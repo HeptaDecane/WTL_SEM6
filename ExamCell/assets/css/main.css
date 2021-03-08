@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Varela", sans-serif;
+    color: #20303c;
+    line-height: 1.6;
+    font-size: 1.4em;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px 2px #aaa;
+    padding: 0.7em 15%;
+    border-bottom: 1px solid #000000;
+}
+
+nav a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+nav button {
+    padding: 4px 10px;
+    background: transparent;
+    border: 1px solid #7278bf;
+    color: #7278bf;
+    font-size: 1em;
+    border-radius: 12px;
+    outline: none;
+}
+nav button:hover {
+    background-color: #7d82c4;
+    color: #ffffff;
+}
+
+
+label{
+    margin: 0;
+    color: gray;
+    font-size: 0.8em;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    font-family: "Varela", sans-serif;
+}
+
+input:focus{
+    outline: none;
+    border-color: #116dff;
+}
+
+
+.nav-brand{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+.nav-right {
+    padding: 2px;
+    float: right;
+}
+
+.nav-right a {
+    font-size: 0.8em;
+}
+.nav-right a:hover {
+    color: #116dff;
+}
+
+
+.header {
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+.banner_title {
+    height: 4em;
+}
+
+
+.caption {
+    padding: 0.8em;
+    margin: 0;
+    color: gray;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.caption a {
+    text-decoration: none;
+    color: #7278bf;
+}
+.caption a:hover{
+    text-decoration: underline;
+}
+
+.footer-table{
+    width: 100%;
+}
+.footer-table tr {
+    vertical-align: top;
+}
+.footer-table th{
+    text-align: left;
+    padding: 8px;
+}
+.footer-table td{
+    text-align: left;
+    padding: 8px;
+}
+
+
+.spreadsheet{
+    border-collapse: collapse;
+    width: 75%;
+    text-align: left;
+}
+.spreadsheet td{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1%;
+    text-align: left;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.spreadsheet td:hover{
+    background-color: #f1f1f1;
+}
+.spreadsheet a{
+    display:block;
+    color: #20303c;
+    text-decoration: none;
+    width:100%;
+}
+.spreadsheet a:hover{
+    color: #116dff;
+}
+
+
+.marksheet{
+    border-collapse: collapse;
+    width: 75%;
+    text-align: left;
+}
+.marksheet td{
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+    border: 1px solid black;
+}
+.marksheet th {
+    font-weight: normal;
+}
+.marksheet input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+    text-align: center;
+    height: 1.8em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.marksheet input:focus {
+    border-color: blue;
+}
+
+
+.interactive {
+
+}
+.interactive:hover{
+    transform: scale(1.2);
+}
+
+
+.error-list {
+    list-style-type: "";
+    color: #F58485;
+    font-size: 0.8em;
+    padding-left: 2em;
+}
+
+.info{
+    border-radius: 36%;
+    outline:none;
+    border: 1px solid #7278bf;
+}
+
+.info .tooltip {
+    visibility: hidden;
+    background-color: #eee;
+    font-size: 1.2em;
+    color: #444;
+    text-align: justify;
+    border-radius: 4px;
+    position: absolute;
+    padding: 4px 2px;
+    z-index: 1;
+}
+
+.info:hover .tooltip {
+    visibility: visible;
+}
