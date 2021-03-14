@@ -198,6 +198,7 @@ input:focus{
     border-radius: 36%;
     outline:none;
     border: 1px solid #7278bf;
+    cursor: pointer;
 }
 
 .info .tooltip {

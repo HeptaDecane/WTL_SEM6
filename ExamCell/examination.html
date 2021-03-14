@@ -27,7 +27,7 @@
                 <table style="width: 100%">
                     <tr>
                         <td style="width: 48%;text-align: left">Date: Jan 01, 2021</td>
-                        <td style="width: 48%;text-align: right">Max Marks: 100.00</td>
+                        <td id="max_marks" style="width: 48%;text-align: right">Max Marks: 100.00</td>
                         <td style="width: 4%; padding-top: 4px">
                             <a class="link-four" href="">
                                 <img class="interactive" height="20" src="assets/images/settings.png">
@@ -40,7 +40,7 @@
         <hr/>
         <div style="margin-bottom:4em">
             <div style="padding-top: 2em">
-                <form action="">
+                <form id="score_form" action="">
                     <table class="marksheet">
                         <tr>
                             <th class="sm" style="width: 15%">Roll No.</th>
@@ -272,8 +272,9 @@
                             </td>
                         </tr>
                     </table>
+                    <ul id="error_list" class="error-list"></ul>
                     <br/>
-                    <button type="submit" class="btn-one">Save Changes</button>
+                    <button id="save_changes" type="submit" class="btn-one">Save Changes</button>
                 </form>
 
             </div>
@@ -285,5 +286,6 @@
 
         </footer>
     </div>
+    <script src="assets/js/score.js"></script>
 </body>
 </html>
