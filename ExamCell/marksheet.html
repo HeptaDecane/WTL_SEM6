@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/modal.css">
 
     <title>Exam Cell</title>
 </head>
@@ -15,7 +16,7 @@
     <nav>
         <a class="nav-brand" href="index.html">Exam Cell</a>
         <div class="nav-right">
-            <a href="profile.html">Profile</a>
+            <a href="staff_profile.html">Profile</a>
             <a href="#">Calendar</a>
             <a href="index.html"><button class="sm" type="submit">Logout</button></a>
         </div>
@@ -29,9 +30,7 @@
                         <td style="width: 48%;text-align: left">Date: Jan 01, 2021</td>
                         <td id="max_marks" style="width: 48%;text-align: right">Max Marks: 100.00</td>
                         <td style="width: 4%; padding-top: 4px">
-                            <a class="link-four" href="">
-                                <img class="interactive" height="20" src="assets/images/settings.png">
-                            </a>
+                            <img id="settings" class="interactive" height="20" src="assets/images/settings.png">
                         </td>
                     </tr>
                 </table>
@@ -286,6 +285,30 @@
 
         </footer>
     </div>
+    <div id="settings_modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <form id="settings_form" action="">
+                <div>
+                    <label for="exam_date">
+                        Date*
+                        <input id="exam_date" type="date"/>
+                    </label>
+                </div>
+                <div>
+                    <label for="max_score">
+                        Max Marks*
+                        <input id="max_score" type="number"/>
+                    </label>
+                </div>
+                <button id="close_modal" class="btn-two" type="reset">Cancel</button>
+                <button id="save_modal" class="btn-one" type="submit">Save</button>
+            </form>
+        </div>
+
+    </div>
     <script src="assets/js/score.js"></script>
+    <script src="assets/js/setting_modal.js"></script>
 </body>
 </html>
