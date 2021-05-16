@@ -152,7 +152,7 @@ input:focus{
 
 .marksheet{
     border-collapse: collapse;
-    width: 75%;
+    width: 100%;
     text-align: left;
 }
 .marksheet td{
