@@ -32,13 +32,13 @@
             <div class="center" style="padding-top: 1em">
                 <b style="font-size: 1.5em">Log In</b>
             </div>
-            <form id="login_form" class="center" action="">
+            <form id="login_form" class="center" action="login.jsp" method="post">
                 <div style="width: 70%;margin: auto">
                     <label for="username">
-                        <input id="username" type="text" placeholder="Username"/>
+                        <input id="username" name="username" type="text" placeholder="Username"/>
                     </label>
                     <label for="password">
-                        <input id="password" type="password" placeholder="Password">
+                        <input id="password" type="password" name="password" placeholder="Password">
                     </label>
                 </div>
                 <ul id="error_list" class="error-list"></ul>
